@@ -123,8 +123,6 @@ Add `bots/[category]/[slug]/{PROFILE.md,README.md}`, add a `bots.json` entry, op
 
 - [Grok Bot](https://x.ai/bot)
 - [Use cases](https://docs.x.ai/grok-bot/use-cases)
-- [botdirectory.ai](https://botdirectory.ai/)
-- [awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents)
 
 ## License
 
