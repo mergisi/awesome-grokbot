@@ -11,10 +11,10 @@ Curated copy-paste profiles for Grok Bot.
 
 Grok Bot is an always-on teammate on a cloud computer. Official setup: [Get started](https://docs.x.ai/grok-bot/get-started) · download at [x.ai/bot](https://x.ai/bot) or [cursor.com/bot/onboarding](https://cursor.com/bot/onboarding) · [use cases](https://docs.x.ai/grok-bot/use-cases).
 
-1. Create a new Bot.
-2. **Name** = the `name` / H1 in `PROFILE.md` (e.g. Daily Brief).
-3. **Description** = the rest of `PROFILE.md` (the prompt body). Two fields, not one paste.
-4. Install the plugins listed in that profile (**Settings → Plugins**), then send the First task from its README.
+1. Open a bot folder and copy [SETUP.md](bots/productivity/daily-brief/SETUP.md) (example: Daily Brief).
+2. Create a new Grok Bot and paste SETUP.md as the first message (or into Description if the bot already exists).
+3. **Name** = the `name` / H1 in `PROFILE.md`. **Description** = the rest of `PROFILE.md`. Two fields.
+4. Connect the plugins it names (**Settings → Plugins**), then send the First task from that bot's README.
 
 ## Plugins
 
@@ -117,7 +117,7 @@ Create both Bots, then put them in one thread.
 
 ## Submit your bot
 
-Add `bots/[category]/[slug]/{PROFILE.md,README.md}`, add a `bots.json` entry, open a PR. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Add `bots/[category]/[slug]/{PROFILE.md,SETUP.md,README.md}`, add a `bots.json` entry, open a PR. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Related
 
