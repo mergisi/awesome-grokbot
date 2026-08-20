@@ -5,7 +5,7 @@ Curated copy-paste profiles for Grok Bot.
 [![Awesome List](https://img.shields.io/badge/awesome-list-blue.svg)](https://github.com/mergisi/awesome-grokbot)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](LICENSE)
-[![Bots](https://img.shields.io/badge/bots-46-blueviolet.svg)](bots/)
+[![Bots](https://img.shields.io/badge/bots-56-blueviolet.svg)](bots/)
 
 ## Quickstart
 
@@ -58,6 +58,7 @@ Create both Bots, then put them in one thread.
 | [Slack Noise Filter](bots/productivity/slack-noise-filter/) | mute Slack noise, surface replies | the channel stays noisy; you only see what needs a reply | [PROFILE.md](bots/productivity/slack-noise-filter/PROFILE.md) |
 | [Bot Team Coach](bots/productivity/bot-team-coach/) | help a new Grok Bot user name roles and pick plugins | name the jobs, pick the plugins, keep the roster small | [PROFILE.md](bots/productivity/bot-team-coach/PROFILE.md) |
 | [One to One Brief](bots/productivity/one-to-one-brief/) | prep a 1:1 from calendar and notes | walk into the 1:1 already knowing last time and today's ask | [PROFILE.md](bots/productivity/one-to-one-brief/PROFILE.md) |
+| [Standup Desk](bots/productivity/standup-desk/) | collect async standup notes from Slack | the standup is a collected note, not a channel post | [PROFILE.md](bots/productivity/standup-desk/PROFILE.md) |
 
 ## Marketing
 
@@ -71,6 +72,8 @@ Create both Bots, then put them in one thread.
 | [Viral Tweet Scout](bots/marketing/viral-tweet-scout/) | high-engagement tweet craft | you steal the craft, not the post | [PROFILE.md](bots/marketing/viral-tweet-scout/PROFILE.md) |
 | [Reddit Comment Finder](bots/marketing/reddit-comment-finder/) | relevant Reddit threads | the thread list is for reading, not drive-by comments | [PROFILE.md](bots/marketing/reddit-comment-finder/PROFILE.md) |
 | [Profile Review](bots/marketing/profile-review/) | LinkedIn profile audit and suggested edits | the LinkedIn audit is suggested edits, not a live profile change | [PROFILE.md](bots/marketing/profile-review/PROFILE.md) |
+| [Brand Watch](bots/marketing/brand-watch/) | brand mention digest from Slack and X | the mention digest is for reading, not a reply thread | [PROFILE.md](bots/marketing/brand-watch/PROFILE.md) |
+| [Content Remix](bots/marketing/content-remix/) | turn one draft into social and email variants | one draft becomes variants, none of them go live | [PROFILE.md](bots/marketing/content-remix/PROFILE.md) |
 
 ## Sales
 
@@ -82,6 +85,8 @@ Create both Bots, then put them in one thread.
 | [Win Loss](bots/sales/win-loss/) | win/loss memos | lost deals become a pattern, not a feeling | [PROFILE.md](bots/sales/win-loss/PROFILE.md) |
 | [Talent Scout](bots/sales/talent-scout/) | sourcing and outreach drafts | the shortlist has evidence, and nobody gets a message until you say so | [PROFILE.md](bots/sales/talent-scout/PROFILE.md) |
 | [LinkedIn Signal Watch](bots/sales/linkedin-signal-watch/) | ICP signals on LinkedIn | the ICP signal is a watch list, not a LinkedIn message | [PROFILE.md](bots/sales/linkedin-signal-watch/PROFILE.md) |
+| [Contact CRM](bots/sales/contact-crm/) | follow-up list from Gmail and Calendar | the follow-up list is a list, not an outbound send | [PROFILE.md](bots/sales/contact-crm/PROFILE.md) |
+| [Proposal Desk](bots/sales/proposal-desk/) | draft a freelance or sales proposal from notes | the proposal stays a draft until you send it | [PROFILE.md](bots/sales/proposal-desk/PROFILE.md) |
 
 ## Ops
 
@@ -101,6 +106,9 @@ Create both Bots, then put them in one thread.
 | [Account Desk](bots/ops/account-desk/) | strategic account brain from Slack + Gmail | one account, one chat, no customer email until you send it | [PROFILE.md](bots/ops/account-desk/PROFILE.md) |
 | [SaaS Finance](bots/ops/saas-finance/) | weekly collected revenue, renewals, and past-due | the weekly money read is a memo, not a refund or a dunning send | [PROFILE.md](bots/ops/saas-finance/PROFILE.md) |
 | [Churn Watch](bots/ops/churn-watch/) | ranked at-risk accounts from Slack, Notion, and Gmail | the at-risk list is ranked evidence, not a save-the-account email | [PROFILE.md](bots/ops/churn-watch/PROFILE.md) |
+| [Resume Screen](bots/ops/resume-screen/) | score resumes from Gmail and Drive | the score is a shortlist, not a candidate email | [PROFILE.md](bots/ops/resume-screen/PROFILE.md) |
+| [Cloud Spend](bots/ops/cloud-spend/) | cloud bill notes from Gmail and Drive | the bill note is a recommendation, not an account change | [PROFILE.md](bots/ops/cloud-spend/PROFILE.md) |
+| [Incident Desk](bots/ops/incident-desk/) | triage an incident from Slack and GitHub into a timeline | the timeline is a write-up, not a production toggle | [PROFILE.md](bots/ops/incident-desk/PROFILE.md) |
 
 ## Personal
 
@@ -122,6 +130,8 @@ Create both Bots, then put them in one thread.
 | [Docs Writer](bots/development/docs-writer/) | README / API docs from the repo | docs catch up to the code in one pass | [PROFILE.md](bots/development/docs-writer/PROFILE.md) |
 | [Bug Reproduction](bots/development/bug-reproduction/) | staging repro packs | the ticket gets a repro pack, not a guess in the comments | [PROFILE.md](bots/development/bug-reproduction/PROFILE.md) |
 | [Repo Hardener](bots/development/repo-hardener/) | GitHub security and hygiene review | the hygiene review is issues and PRs, not a push to main | [PROFILE.md](bots/development/repo-hardener/PROFILE.md) |
+| [Deploy Watch](bots/development/deploy-watch/) | CI and deploy status from GitHub and Slack | the status board is a read, not a merge or a ship | [PROFILE.md](bots/development/deploy-watch/PROFILE.md) |
+| [Query Helper](bots/development/query-helper/) | explain or write SQL from a schema or pasted query | the SQL stays a draft, never a write against a live database | [PROFILE.md](bots/development/query-helper/PROFILE.md) |
 
 ## Submit your bot
 
