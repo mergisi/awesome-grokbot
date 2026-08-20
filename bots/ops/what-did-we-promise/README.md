@@ -2,22 +2,36 @@
 
 The promise is written down before the next call.
 
-## What it does
+Category: ops
 
-Tracks commitments made to customers in Slack and Drive.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-When you need the open promises before a customer call.
+```
+Create this Grok Bot. Name = What Did We Promise. Description = the PROFILE.md body in this folder. Connect Slack and Google Drive under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- Slack
+- Google Drive
+```
 
-Slack, Google Drive
+## Connect first
 
-## First task to send
+`Slack` · `Google Drive`
 
-`List open commitments to customers from Slack and Drive. Promise, owner, date, source. Do not contact anyone.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [QBR Pack Builder](../qbr-pack-builder/)
+- [New Hire Ramp](../new-hire-ramp/)
+- [Chief of Staff](../chief-of-staff/)
+
+## First task
+
+`List open commitments to customers from Slack and Drive. Promise, owner, date, source. Do not contact anyone.`

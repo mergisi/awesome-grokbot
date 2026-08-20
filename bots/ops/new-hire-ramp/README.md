@@ -2,22 +2,36 @@
 
 Week one has owners and calendar holds, not a wiki dump.
 
-## What it does
+Category: ops
 
-First-week plan for a new hire from Calendar and Slack.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-When someone starts soon and you need a week-one plan, not a handbook paste.
+```
+Create this Grok Bot. Name = New Hire Ramp. Description = the PROFILE.md body in this folder. Connect Google Calendar and Slack under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- Google Calendar
+- Slack
+```
 
-Google Calendar, Slack
+## Connect first
 
-## First task to send
+`Google Calendar` · `Slack`
 
-`Build a first-week ramp for this role and start date. Calendar holds and Slack intro drafts. Do not send anything.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Chief of Staff](../chief-of-staff/)
+- [Support Replies](../support-replies/)
+- [Vendor Inbox](../vendor-inbox/)
+
+## First task
+
+`Build a first-week ramp for this role and start date. Calendar holds and Slack intro drafts. Do not send anything.`

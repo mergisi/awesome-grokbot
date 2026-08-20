@@ -2,22 +2,37 @@
 
 The watch list is ranked evidence, not a customer email.
 
-## What it does
+Category: ops
 
-Risk and expansion signals across a customer portfolio. Stops at the ranked list.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-When you want a weekly watch list before anyone reaches out.
+```
+Create this Grok Bot. Name = Account Health. Description = the PROFILE.md body in this folder. Connect Slack, Notion, and Gmail under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- Slack
+- Notion
+- Gmail
+```
 
-Slack, Notion, Gmail
+## Connect first
 
-## First task to send
+`Slack` · `Notion` · `Gmail`
 
-`Rank this portfolio from Slack, Notion, and Gmail. Watch list with evidence and a next step per account. Do not contact customers or edit records.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Feature Ask Finder](../feature-ask-finder/)
+- [What Did We Promise](../what-did-we-promise/)
+- [QBR Pack Builder](../qbr-pack-builder/)
+
+## First task
+
+`Rank this portfolio from Slack, Notion, and Gmail. Watch list with evidence and a next step per account. Do not contact customers or edit records.`
