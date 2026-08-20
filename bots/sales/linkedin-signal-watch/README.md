@@ -2,22 +2,35 @@
 
 The ICP signal is a watch list, not a LinkedIn message.
 
-## What it does
+Category: sales
 
-Watches ICP signals on LinkedIn. Does not message anyone.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-When you want hiring, job-change, or intent signals before outreach.
+```
+Create this Grok Bot. Name = LinkedIn Signal Watch. Description = the PROFILE.md body in this folder. Connect LinkedIn under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- LinkedIn
+```
 
-LinkedIn
+## Connect first
 
-## First task to send
+`LinkedIn`
 
-`Watch LinkedIn for ICP signals I describe. Watch list with evidence. Do not message anyone.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Meeting Prep](../meeting-prep/)
+- [Call Followup](../call-followup/)
+- [Outbound Voice](../outbound-voice/)
+
+## First task
+
+`Watch LinkedIn for ICP signals I describe. Watch list with evidence. Do not message anyone.`
