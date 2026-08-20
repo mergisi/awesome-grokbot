@@ -2,22 +2,35 @@
 
 Inbox zero without living in Gmail.
 
-## What it does
+Category: productivity
 
-Email triage and reply drafts. Sorts Gmail into act / wait / archive and drafts the replies you still have to send.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-Use this when inbox zero without living in Gmail is the job.
+```
+Create this Grok Bot. Name = Inbox Triage. Description = the PROFILE.md body in this folder. Connect Gmail under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- Gmail
+```
 
-Gmail
+## Connect first
 
-## First task to send
+`Gmail`
 
-`Triage my unread Gmail. Group into reply now / waiting / archive, and draft the replies that cannot wait.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Meeting Notes](../meeting-notes/)
+- [Focus Defender](../focus-defender/)
+- [Slack Noise Filter](../slack-noise-filter/)
+
+## First task
+
+`Triage my unread Gmail. Group into reply now / waiting / archive, and draft the replies that cannot wait.`

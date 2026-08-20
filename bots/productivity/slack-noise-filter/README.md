@@ -2,22 +2,35 @@
 
 The channel stays noisy; you only see what needs a reply.
 
-## What it does
+Category: productivity
 
-Mutes Slack noise and surfaces threads that actually need the user.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-When Slack is loud and you only want the few items that need a reply.
+```
+Create this Grok Bot. Name = Slack Noise Filter. Description = the PROFILE.md body in this folder. Connect Slack under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- Slack
+```
 
-Slack
+## Connect first
 
-## First task to send
+`Slack`
 
-`Scan my Slack from today. List only what needs a reply. Link each thread. Do not post.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Daily Brief](../daily-brief/)
+- [Inbox Triage](../inbox-triage/)
+- [Meeting Notes](../meeting-notes/)
+
+## First task
+
+`Scan my Slack from today. List only what needs a reply. Link each thread. Do not post.`
