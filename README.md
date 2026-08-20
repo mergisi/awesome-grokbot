@@ -5,7 +5,7 @@ Curated copy-paste profiles for Grok Bot.
 [![Awesome List](https://img.shields.io/badge/awesome-list-blue.svg)](https://github.com/mergisi/awesome-grokbot)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](LICENSE)
-[![Bots](https://img.shields.io/badge/bots-30-blueviolet.svg)](bots/)
+[![Bots](https://img.shields.io/badge/bots-38-blueviolet.svg)](bots/)
 
 ## Quickstart
 
@@ -55,6 +55,7 @@ Create both Bots, then put them in one thread.
 | [Inbox Triage](bots/productivity/inbox-triage/) | email triage and reply drafts | inbox zero without living in Gmail | [PROFILE.md](bots/productivity/inbox-triage/PROFILE.md) |
 | [Meeting Notes](bots/productivity/meeting-notes/) | meeting summaries and action items | notes that already have owners and due dates | [PROFILE.md](bots/productivity/meeting-notes/PROFILE.md) |
 | [Focus Defender](bots/productivity/focus-defender/) | protect deep-work blocks | meetings stop eating the only quiet hours | [PROFILE.md](bots/productivity/focus-defender/PROFILE.md) |
+| [Slack Noise Filter](bots/productivity/slack-noise-filter/) | mute Slack noise, surface replies | the channel stays noisy; you only see what needs a reply | [PROFILE.md](bots/productivity/slack-noise-filter/PROFILE.md) |
 
 ## Marketing
 
@@ -65,6 +66,8 @@ Create both Bots, then put them in one thread.
 | [Competitor Watch](bots/marketing/competitor-watch/) | competitor site/pricing/changelog digest | you hear about their launch from the bot, not Twitter | [PROFILE.md](bots/marketing/competitor-watch/PROFILE.md) |
 | [Newsletter Desk](bots/marketing/newsletter-desk/) | weekly newsletter from links + notes | the digest writes itself from what you already saved | [PROFILE.md](bots/marketing/newsletter-desk/PROFILE.md) |
 | [Paid Media](bots/marketing/paid-media/) | campaign spend and realloc recommendations | the budget recommendation comes with numbers, not a live spend change | [PROFILE.md](bots/marketing/paid-media/PROFILE.md) |
+| [Viral Tweet Scout](bots/marketing/viral-tweet-scout/) | high-engagement tweet craft | you steal the craft, not the post | [PROFILE.md](bots/marketing/viral-tweet-scout/PROFILE.md) |
+| [Reddit Comment Finder](bots/marketing/reddit-comment-finder/) | relevant Reddit threads | the thread list is for reading, not drive-by comments | [PROFILE.md](bots/marketing/reddit-comment-finder/PROFILE.md) |
 
 ## Sales
 
@@ -75,6 +78,7 @@ Create both Bots, then put them in one thread.
 | [Outbound Voice](bots/sales/outbound-voice/) | personalized outbound in the user's voice | volume without sounding like a sequence tool | [PROFILE.md](bots/sales/outbound-voice/PROFILE.md) |
 | [Win Loss](bots/sales/win-loss/) | win/loss memos | lost deals become a pattern, not a feeling | [PROFILE.md](bots/sales/win-loss/PROFILE.md) |
 | [Talent Scout](bots/sales/talent-scout/) | sourcing and outreach drafts | the shortlist has evidence, and nobody gets a message until you say so | [PROFILE.md](bots/sales/talent-scout/PROFILE.md) |
+| [LinkedIn Signal Watch](bots/sales/linkedin-signal-watch/) | ICP signals on LinkedIn | the ICP signal is a watch list, not a LinkedIn message | [PROFILE.md](bots/sales/linkedin-signal-watch/PROFILE.md) |
 
 ## Ops
 
@@ -87,6 +91,10 @@ Create both Bots, then put them in one thread.
 | [Expense Manager](bots/ops/expense-manager/) | weekly expense reconciliation | the weekly pile is a summary and drafts, not a sent chase | [PROFILE.md](bots/ops/expense-manager/PROFILE.md) |
 | [Product Performance](bots/ops/product-performance/) | sourced performance investigations | the hotspot is a write-up with links, not a production toggle | [PROFILE.md](bots/ops/product-performance/PROFILE.md) |
 | [Account Health](bots/ops/account-health/) | ranked customer watch list | the watch list is ranked evidence, not a customer email | [PROFILE.md](bots/ops/account-health/PROFILE.md) |
+| [Feature Ask Finder](bots/ops/feature-ask-finder/) | repeated Slack feature asks | the same feature request stops living in 12 threads | [PROFILE.md](bots/ops/feature-ask-finder/PROFILE.md) |
+| [What Did We Promise](bots/ops/what-did-we-promise/) | customer commitments | the promise is written down before the next call | [PROFILE.md](bots/ops/what-did-we-promise/PROFILE.md) |
+| [QBR Pack Builder](bots/ops/qbr-pack-builder/) | QBR pack from notes | the QBR pack is a draft from notes, not a deck you send live | [PROFILE.md](bots/ops/qbr-pack-builder/PROFILE.md) |
+| [New Hire Ramp](bots/ops/new-hire-ramp/) | first-week new-hire plan | week one has owners and calendar holds, not a wiki dump | [PROFILE.md](bots/ops/new-hire-ramp/PROFILE.md) |
 
 ## Personal
 
