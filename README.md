@@ -11,7 +11,13 @@ Curated copy-paste profiles for Grok Bot.
 
 Grok Bot is an always-on teammate on a cloud computer. Official setup: [Get started](https://docs.x.ai/grok-bot/get-started) · download at [x.ai/bot](https://x.ai/bot) or [cursor.com/bot/onboarding](https://cursor.com/bot/onboarding) · [use cases](https://docs.x.ai/grok-bot/use-cases).
 
-0. New here? Paste [START.md](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/START.md) into a blank Grok Bot and say your goal.
+0. New bot? Send [START.md](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/START.md). Tap a goal. Or send a goal link:
+   - [Sales](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/sales.md)
+   - [Eng](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/eng.md)
+   - [Success](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/success.md)
+   - [Marketing](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/marketing.md)
+   - [Ops](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/ops.md)
+   - [Personal](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/personal.md)
 1. Open a bot folder and copy [SETUP.md](bots/productivity/daily-brief/SETUP.md) (example: Daily Brief).
 2. Create a new Grok Bot and paste SETUP.md as the first message (or into Description if the bot already exists).
 3. **Name** = the `name` / H1 in `PROFILE.md`. **Description** = the rest of `PROFILE.md`. Two fields.
