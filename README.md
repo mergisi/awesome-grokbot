@@ -25,6 +25,14 @@ Or skip the tap and send one goal link:
 - [Ops](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/ops.md)
 - [Personal](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/personal.md)
 
+## Convert
+
+OpenClaw or Hermes SOUL.md becomes a Grok Bot profile. Memory and local files do not move.
+
+Send [CONVERT.md](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/CONVERT.md), then tap. Or send one convert link:
+- [OpenClaw](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/convert/openclaw.md)
+- [Hermes](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/convert/hermes.md)
+
 ## Plugins
 
 From the official [skills and routines](https://docs.x.ai/grok-bot/skills-routines-and-automations) and [computer and apps](https://docs.x.ai/grok-bot/computer-and-apps) docs:
