@@ -2,6 +2,8 @@
 
 Name the jobs, pick the plugins, keep the roster small.
 
+If you want a blank bot to build the team, paste [START.md](../../../START.md).
+
 Category: productivity
 
 ## The setup prompt
@@ -27,6 +29,7 @@ Open **Settings → Plugins** and add each one.
 
 ## Related bots
 
+- [START.md](../../../START.md) — blank-bot front door
 - [Daily Brief](../daily-brief/)
 - [Inbox Triage](../inbox-triage/)
 - [Focus Defender](../focus-defender/)

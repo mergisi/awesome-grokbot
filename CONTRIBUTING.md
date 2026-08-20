@@ -11,7 +11,7 @@ bots/[category]/[slug]/
   README.md    # setup prompt, connect list, first task, related bots
 ```
 
-Then add one object to `bots.json`.
+Then add one object to `bots.json` and one index row to [START.md](START.md).
 
 Categories: `productivity`, `marketing`, `sales`, `ops`, `personal`, `development`.
 
@@ -33,6 +33,10 @@ Title, one-line why, category. Then:
 
 YAML frontmatter (`name`, `category`, `integrations`) plus a paste-ready prompt.
 
+## START.md
+
+If you add a bot, add one index row: name | one-line why | category | plugins | relative link to the folder. Do not paste PROFILE text into START.md.
+
 ## Rules
 
 - Unique one-line why in the README and in `bots.json`.
@@ -42,4 +46,4 @@ YAML frontmatter (`name`, `category`, `integrations`) plus a paste-ready prompt.
 
 ## PR
 
-Fork, add the folder (PROFILE.md + SETUP.md + README.md) + `bots.json` entry, open a pull request.
+Fork, add the folder (PROFILE.md + SETUP.md + README.md) + `bots.json` entry + one [START.md](START.md) index row, open a pull request.
