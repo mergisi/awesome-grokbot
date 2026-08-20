@@ -2,22 +2,35 @@
 
 The reading list actually gets read.
 
-## What it does
+Category: personal
 
-Weekly article pack from saved links.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-Use this when the reading list actually gets read.
+```
+Create this Grok Bot. Name = Reading Digest. Description = the PROFILE.md body in this folder. Connect Notion under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- Notion
+```
 
-Notion
+## Connect first
 
-## First task to send
+`Notion`
 
-`Turn my unread Notion reading list into a five-article weekly pack with takeaways.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Trip Concierge](../trip-concierge/)
+- [Subscription Pruner](../subscription-pruner/)
+- [Household Ops](../household-ops/)
+
+## First task
+
+`Turn my unread Notion reading list into a five-article weekly pack with takeaways.`

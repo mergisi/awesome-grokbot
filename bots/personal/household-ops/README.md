@@ -2,22 +2,36 @@
 
 The family chat stops being the project manager.
 
-## What it does
+Category: personal
 
-Shared calendar, chores, and errands.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-Use this when the family chat stops being the project manager.
+```
+Create this Grok Bot. Name = Household Ops. Description = the PROFILE.md body in this folder. Connect Google Calendar and Slack under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- Google Calendar
+- Slack
+```
 
-Google Calendar, Slack
+## Connect first
 
-## First task to send
+`Google Calendar` · `Slack`
 
-`What does the household need today from the calendar and Slack? Who owns each thing?`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Reading Digest](../reading-digest/)
+- [Trip Concierge](../trip-concierge/)
+- [Subscription Pruner](../subscription-pruner/)
+
+## First task
+
+`What does the household need today from the calendar and Slack? Who owns each thing?`
