@@ -5,7 +5,7 @@ Curated copy-paste profiles for Grok Bot.
 [![Awesome List](https://img.shields.io/badge/awesome-list-blue.svg)](https://github.com/mergisi/awesome-grokbot)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](LICENSE)
-[![Bots](https://img.shields.io/badge/bots-38-blueviolet.svg)](bots/)
+[![Bots](https://img.shields.io/badge/bots-46-blueviolet.svg)](bots/)
 
 ## Quickstart
 
@@ -56,6 +56,8 @@ Create both Bots, then put them in one thread.
 | [Meeting Notes](bots/productivity/meeting-notes/) | meeting summaries and action items | notes that already have owners and due dates | [PROFILE.md](bots/productivity/meeting-notes/PROFILE.md) |
 | [Focus Defender](bots/productivity/focus-defender/) | protect deep-work blocks | meetings stop eating the only quiet hours | [PROFILE.md](bots/productivity/focus-defender/PROFILE.md) |
 | [Slack Noise Filter](bots/productivity/slack-noise-filter/) | mute Slack noise, surface replies | the channel stays noisy; you only see what needs a reply | [PROFILE.md](bots/productivity/slack-noise-filter/PROFILE.md) |
+| [Bot Team Coach](bots/productivity/bot-team-coach/) | help a new Grok Bot user name roles and pick plugins | name the jobs, pick the plugins, keep the roster small | [PROFILE.md](bots/productivity/bot-team-coach/PROFILE.md) |
+| [One to One Brief](bots/productivity/one-to-one-brief/) | prep a 1:1 from calendar and notes | walk into the 1:1 already knowing last time and today's ask | [PROFILE.md](bots/productivity/one-to-one-brief/PROFILE.md) |
 
 ## Marketing
 
@@ -68,6 +70,7 @@ Create both Bots, then put them in one thread.
 | [Paid Media](bots/marketing/paid-media/) | campaign spend and realloc recommendations | the budget recommendation comes with numbers, not a live spend change | [PROFILE.md](bots/marketing/paid-media/PROFILE.md) |
 | [Viral Tweet Scout](bots/marketing/viral-tweet-scout/) | high-engagement tweet craft | you steal the craft, not the post | [PROFILE.md](bots/marketing/viral-tweet-scout/PROFILE.md) |
 | [Reddit Comment Finder](bots/marketing/reddit-comment-finder/) | relevant Reddit threads | the thread list is for reading, not drive-by comments | [PROFILE.md](bots/marketing/reddit-comment-finder/PROFILE.md) |
+| [Profile Review](bots/marketing/profile-review/) | LinkedIn profile audit and suggested edits | the LinkedIn audit is suggested edits, not a live profile change | [PROFILE.md](bots/marketing/profile-review/PROFILE.md) |
 
 ## Sales
 
@@ -95,6 +98,9 @@ Create both Bots, then put them in one thread.
 | [What Did We Promise](bots/ops/what-did-we-promise/) | customer commitments | the promise is written down before the next call | [PROFILE.md](bots/ops/what-did-we-promise/PROFILE.md) |
 | [QBR Pack Builder](bots/ops/qbr-pack-builder/) | QBR pack from notes | the QBR pack is a draft from notes, not a deck you send live | [PROFILE.md](bots/ops/qbr-pack-builder/PROFILE.md) |
 | [New Hire Ramp](bots/ops/new-hire-ramp/) | first-week new-hire plan | week one has owners and calendar holds, not a wiki dump | [PROFILE.md](bots/ops/new-hire-ramp/PROFILE.md) |
+| [Account Desk](bots/ops/account-desk/) | strategic account brain from Slack + Gmail | one account, one chat, no customer email until you send it | [PROFILE.md](bots/ops/account-desk/PROFILE.md) |
+| [SaaS Finance](bots/ops/saas-finance/) | weekly collected revenue, renewals, and past-due | the weekly money read is a memo, not a refund or a dunning send | [PROFILE.md](bots/ops/saas-finance/PROFILE.md) |
+| [Churn Watch](bots/ops/churn-watch/) | ranked at-risk accounts from Slack, Notion, and Gmail | the at-risk list is ranked evidence, not a save-the-account email | [PROFILE.md](bots/ops/churn-watch/PROFILE.md) |
 
 ## Personal
 
@@ -104,6 +110,7 @@ Create both Bots, then put them in one thread.
 | [Subscription Pruner](bots/personal/subscription-pruner/) | find unused subscriptions in mail | the $12/mo ghosts leave on purpose | [PROFILE.md](bots/personal/subscription-pruner/PROFILE.md) |
 | [Household Ops](bots/personal/household-ops/) | shared calendar, chores, errands | the family chat stops being the project manager | [PROFILE.md](bots/personal/household-ops/PROFILE.md) |
 | [Reading Digest](bots/personal/reading-digest/) | weekly article pack | the reading list actually gets read | [PROFILE.md](bots/personal/reading-digest/PROFILE.md) |
+| [Charge Dispute Draft](bots/personal/charge-dispute-draft/) | Gmail receipts to a card-dispute letter draft | the dispute letter stays a draft until you submit it | [PROFILE.md](bots/personal/charge-dispute-draft/PROFILE.md) |
 
 ## Development
 
@@ -114,6 +121,7 @@ Create both Bots, then put them in one thread.
 | [Issue Drafter](bots/development/issue-drafter/) | Slack/thread to GitHub issue | the bug is written down before it evaporates | [PROFILE.md](bots/development/issue-drafter/PROFILE.md) |
 | [Docs Writer](bots/development/docs-writer/) | README / API docs from the repo | docs catch up to the code in one pass | [PROFILE.md](bots/development/docs-writer/PROFILE.md) |
 | [Bug Reproduction](bots/development/bug-reproduction/) | staging repro packs | the ticket gets a repro pack, not a guess in the comments | [PROFILE.md](bots/development/bug-reproduction/PROFILE.md) |
+| [Repo Hardener](bots/development/repo-hardener/) | GitHub security and hygiene review | the hygiene review is issues and PRs, not a push to main | [PROFILE.md](bots/development/repo-hardener/PROFILE.md) |
 
 ## Submit your bot
 
