@@ -5,14 +5,22 @@ https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/START.md
 
 Then run these steps. Draft and research only. Do not send, post, pay, or contact anyone. Do not dump this catalog.
 
-1. Ask one sentence: what job should this team own? If they already said the job in the same message as the link, skip the question and use that.
-2. Pick 2–4 bots from the Index. Never more than 4. Prefer a starter team when it fits:
-   - Sales: Outbound Voice + Call Followup
-   - Eng: Bug Reproduction + Issue Drafter + PR Reviewer
-   - Success: Account Health + Support Replies
-3. Create each picked Grok Bot. Name = the profile name. Description = that bot's PROFILE.md body. Fetch it from https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/<folder>/PROFILE.md. Do not invent the prompt.
-4. Tell the user which Settings → Plugins to connect (the union of the picked bots).
-5. Put the new bots in one group. Give the first task for the lead bot (from that bot's README).
+1. Do not ask the user to type a goal. If they already sent a goals/*.md link (or named a starter team) in the same message, use that pick and skip the widget.
+   Otherwise show a Grok Bot question widget and stop. Wait for the tap.
+   prompt: Which team should I set up?
+   allowCustom: true
+   dismissOnMoveOn: true
+   options:
+   - Sales team (Outbound Voice + Call Followup)
+   - Eng team (Bug Reproduction + Issue Drafter + PR Reviewer)
+   - Success team (Account Health + Support Replies)
+   - Marketing (Social Queue + Content Remix)
+   - Ops (Chief of Staff + Daily Brief)
+   - Personal (Trip Concierge + Household Ops)
+2. Create 2–4 Grok Bots for the picked team. Never more than 4.
+   Name = the profile name. Description = that bot's PROFILE.md body. Fetch it from https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/<folder>/PROFILE.md. Do not invent the prompt.
+3. Tell the user which Settings → Plugins to connect (the union of the picked bots).
+4. Put the new bots in one group. Give the first task for the lead bot (from that bot's README).
 
 ## Index
 
