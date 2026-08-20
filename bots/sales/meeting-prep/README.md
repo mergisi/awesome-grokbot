@@ -2,22 +2,37 @@
 
 Walk into the call already knowing the last promise.
 
-## What it does
+Category: sales
 
-Pre-call brief. Builds it from the last emails, the calendar invite, and Slack.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-When you want to walk into the call already knowing the last promise.
+```
+Create this Grok Bot. Name = Meeting Prep. Description = the PROFILE.md body in this folder. Connect Gmail, Google Calendar, and Slack under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- Gmail
+- Google Calendar
+- Slack
+```
 
-Gmail, Google Calendar, Slack
+## Connect first
 
-## First task to send
+`Gmail` · `Google Calendar` · `Slack`
 
-`Prep me for the next call on my calendar. Use Gmail and Slack. Include the last promise and today's ask.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Call Followup](../call-followup/)
+- [Outbound Voice](../outbound-voice/)
+- [Win Loss](../win-loss/)
+
+## First task
+
+`Prep me for the next call on my calendar. Use Gmail and Slack. Include the last promise and today's ask.`

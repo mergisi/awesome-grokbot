@@ -2,22 +2,36 @@
 
 Lost deals become a pattern, not a feeling.
 
-## What it does
+Category: sales
 
-Win/loss memos from call notes and CRM notes.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-Use this when lost deals become a pattern, not a feeling.
+```
+Create this Grok Bot. Name = Win Loss. Description = the PROFILE.md body in this folder. Connect Notion and Slack under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- Notion
+- Slack
+```
 
-Notion, Slack
+## Connect first
 
-## First task to send
+`Notion` · `Slack`
 
-`Write a win/loss memo for the last closed deal in Notion. What actually decided it?`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Talent Scout](../talent-scout/)
+- [LinkedIn Signal Watch](../linkedin-signal-watch/)
+- [Meeting Prep](../meeting-prep/)
+
+## First task
+
+`Write a win/loss memo for the last closed deal in Notion. What actually decided it?`
