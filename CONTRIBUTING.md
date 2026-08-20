@@ -35,7 +35,7 @@ YAML frontmatter (`name`, `category`, `integrations`) plus a paste-ready prompt.
 
 ## START.md
 
-If you add a bot, add one index row: name | one-line why | category | plugins | relative link to the folder. Do not paste PROFILE text into START.md.
+START.md is what a blank bot reads when the user sends the raw URL. If you add a bot, add one index row: name | one-line why | category | plugins | relative link to the folder. Do not paste PROFILE text into START.md. Do not add a copy-paste box.
 
 ## Rules
 

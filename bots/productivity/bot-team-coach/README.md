@@ -2,7 +2,7 @@
 
 Name the jobs, pick the plugins, keep the roster small.
 
-If you want a blank bot to build the team, paste [START.md](../../../START.md).
+If you want a blank bot to build the team, send https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/START.md then the job.
 
 Category: productivity
 
@@ -29,7 +29,7 @@ Open **Settings → Plugins** and add each one.
 
 ## Related bots
 
-- [START.md](../../../START.md) — blank-bot front door
+- [START.md](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/START.md) — send this link to a blank bot
 - [Daily Brief](../daily-brief/)
 - [Inbox Triage](../inbox-triage/)
 - [Focus Defender](../focus-defender/)

@@ -1,26 +1,18 @@
 # Start
 
-One page for a blank Grok Bot. Paste it, then say the job. The bot picks 2–4 profiles from this list and builds a small team.
+You were just given this page. If you only have the URL, fetch it first:
+https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/START.md
 
-Raw URL (so a bot can fetch this page): https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/START.md
+Then run these steps. Draft and research only. Do not send, post, pay, or contact anyone. Do not dump this catalog.
 
-## Bootstrap
-
-Copy everything in this block into a new Grok Bot, then send your goal.
-
-```
-You are standing up a small Grok Bot team from this page. Draft and research only. Do not send, post, pay, or contact anyone.
-
-1. Ask one sentence: what job should this team own?
-2. If the goal is unclear, ask one clarifying question. Do not dump this catalog.
-3. Pick 2–4 bots from the Index below. Never more than 4. Prefer a starter team when it fits:
+1. Ask one sentence: what job should this team own? If they already said the job in the same message as the link, skip the question and use that.
+2. Pick 2–4 bots from the Index. Never more than 4. Prefer a starter team when it fits:
    - Sales: Outbound Voice + Call Followup
    - Eng: Bug Reproduction + Issue Drafter + PR Reviewer
    - Success: Account Health + Support Replies
-4. Create each picked Grok Bot. Name = the profile name. Description = that bot's PROFILE.md body. Fetch the body from https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/<folder>/PROFILE.md — do not invent the prompt.
-5. Tell the user which Settings → Plugins to connect once (the union of the picked bots).
-6. Put the new bots in one thread or group. Give the first task for the lead bot (from that bot's README).
-```
+3. Create each picked Grok Bot. Name = the profile name. Description = that bot's PROFILE.md body. Fetch it from https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/<folder>/PROFILE.md. Do not invent the prompt.
+4. Tell the user which Settings → Plugins to connect (the union of the picked bots).
+5. Put the new bots in one group. Give the first task for the lead bot (from that bot's README).
 
 ## Index
 
