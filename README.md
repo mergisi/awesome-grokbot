@@ -11,17 +11,19 @@ Curated copy-paste profiles for Grok Bot.
 
 Grok Bot is an always-on teammate on a cloud computer. Official setup: [Get started](https://docs.x.ai/grok-bot/get-started) · download at [x.ai/bot](https://x.ai/bot) or [cursor.com/bot/onboarding](https://cursor.com/bot/onboarding) · [use cases](https://docs.x.ai/grok-bot/use-cases).
 
-0. New bot? Send [START.md](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/START.md). Tap a goal. Or send a goal link:
-   - [Sales](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/sales.md)
-   - [Eng](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/eng.md)
-   - [Success](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/success.md)
-   - [Marketing](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/marketing.md)
-   - [Ops](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/ops.md)
-   - [Personal](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/personal.md)
-1. Open a bot folder and copy [SETUP.md](bots/productivity/daily-brief/SETUP.md) (example: Daily Brief).
-2. Create a new Grok Bot and paste SETUP.md as the first message (or into Description if the bot already exists).
-3. **Name** = the `name` / H1 in `PROFILE.md`. **Description** = the rest of `PROFILE.md`. Two fields.
-4. Connect the plugins it names (**Settings → Plugins**), then send the First task from that bot's README.
+1. Tap **+** → **Create New Bot**. Name it Setup. Create it.
+2. Paste this in Setup's chat and send:
+   https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/START.md
+3. Tap a team (example: Eng team).
+4. Setup creates the bots and a group. Eng: Bug Reproduction, Issue Drafter, PR Reviewer, plus an Eng team group.
+
+Or skip the tap and send one goal link:
+- [Sales](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/sales.md)
+- [Eng](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/eng.md)
+- [Success](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/success.md)
+- [Marketing](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/marketing.md)
+- [Ops](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/ops.md)
+- [Personal](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/goals/personal.md)
 
 ## Plugins
 
