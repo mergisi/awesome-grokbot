@@ -29,7 +29,7 @@ Or skip the tap and send one goal link:
 
 OpenClaw or Hermes SOUL.md becomes a Grok Bot profile. Memory and local files do not move.
 
-Send [CONVERT.md](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/CONVERT.md), then tap. Or send one convert link:
+Send [CONVERT.md](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/CONVERT.md), tap a source, attach the agent file. Or send one convert link:
 - [OpenClaw](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/convert/openclaw.md)
 - [Hermes](https://raw.githubusercontent.com/mergisi/awesome-grokbot/main/convert/hermes.md)
 
