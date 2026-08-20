@@ -5,16 +5,38 @@ Curated copy-paste profiles for Grok Bot.
 [![Awesome List](https://img.shields.io/badge/awesome-list-blue.svg)](https://github.com/mergisi/awesome-grokbot)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: CC0](https://img.shields.io/badge/license-CC0-lightgrey.svg)](LICENSE)
-[![Bots](https://img.shields.io/badge/bots-24-blueviolet.svg)](bots/)
+[![Bots](https://img.shields.io/badge/bots-30-blueviolet.svg)](bots/)
 
 ## Quickstart
 
-Grok Bot is an always-on teammate bot in the Grok Bot / Cursor app. Get it at [x.ai/bot](https://x.ai/bot), sign in, then:
+Grok Bot is an always-on teammate on a cloud computer. Official setup: [Get started](https://docs.x.ai/grok-bot/get-started) · download at [x.ai/bot](https://x.ai/bot) or [cursor.com/bot/onboarding](https://cursor.com/bot/onboarding) · [use cases](https://docs.x.ai/grok-bot/use-cases).
 
-1. Create a new bot.
+1. Create a new Bot.
 2. **Name** = the `name` / H1 in `PROFILE.md` (e.g. Daily Brief).
 3. **Description** = the rest of `PROFILE.md` (the prompt body). Two fields, not one paste.
-4. Connect the integrations listed in that profile, then send the First task from its README.
+4. Install the plugins listed in that profile (**Settings → Plugins**), then send the First task from its README.
+
+## Plugins
+
+From the official [skills and routines](https://docs.x.ai/grok-bot/skills-routines-and-automations) and [computer and apps](https://docs.x.ai/grok-bot/computer-and-apps) docs:
+
+1. Open **Settings → Plugins**.
+2. Add the connectors named in the profile's `integrations` (Gmail, Slack, GitHub, …).
+3. Finish auth in the browser if asked.
+4. Type `@` in the composer to attach a Bot, group, routine, or connector.
+5. Type `/` to use a packaged or saved skill.
+6. If a skill is missing from `/`, open **Settings → Plugins → Yours** and enable it for that Bot.
+7. Then send the First task.
+
+Prefer a connector when one exists. Use the cloud computer's browser when there is no plugin.
+
+## Starter teams
+
+Create both Bots, then put them in one thread.
+
+- **Sales** — [Outbound Voice](bots/sales/outbound-voice/) + [Call Followup](bots/sales/call-followup/). Research and drafts go to one, the recap to the other.
+- **Eng** — [Bug Reproduction](bots/development/bug-reproduction/) + [Issue Drafter](bots/development/issue-drafter/) + [PR Reviewer](bots/development/pr-reviewer/). Repro pack, then the issue, then the review.
+- **Success** — [Account Health](bots/ops/account-health/) + [Support Replies](bots/ops/support-replies/). Watch list first, reply drafts second. Neither contacts a customer unless you send it.
 
 ## Contents
 
@@ -42,6 +64,7 @@ Grok Bot is an always-on teammate bot in the Grok Bot / Cursor app. Get it at [x
 | [SEO Pages](bots/marketing/seo-pages/) | titles, meta, internal links | pages on page two get a rewrite, not another blog idea | [PROFILE.md](bots/marketing/seo-pages/PROFILE.md) |
 | [Competitor Watch](bots/marketing/competitor-watch/) | competitor site/pricing/changelog digest | you hear about their launch from the bot, not Twitter | [PROFILE.md](bots/marketing/competitor-watch/PROFILE.md) |
 | [Newsletter Desk](bots/marketing/newsletter-desk/) | weekly newsletter from links + notes | the digest writes itself from what you already saved | [PROFILE.md](bots/marketing/newsletter-desk/PROFILE.md) |
+| [Paid Media](bots/marketing/paid-media/) | campaign spend and realloc recommendations | the budget recommendation comes with numbers, not a live spend change | [PROFILE.md](bots/marketing/paid-media/PROFILE.md) |
 
 ## Sales
 
@@ -51,6 +74,7 @@ Grok Bot is an always-on teammate bot in the Grok Bot / Cursor app. Get it at [x
 | [Call Followup](bots/sales/call-followup/) | draft follow-up emails after calls | the recap goes out while the call is still warm | [PROFILE.md](bots/sales/call-followup/PROFILE.md) |
 | [Outbound Voice](bots/sales/outbound-voice/) | personalized outbound in the user's voice | volume without sounding like a sequence tool | [PROFILE.md](bots/sales/outbound-voice/PROFILE.md) |
 | [Win Loss](bots/sales/win-loss/) | win/loss memos | lost deals become a pattern, not a feeling | [PROFILE.md](bots/sales/win-loss/PROFILE.md) |
+| [Talent Scout](bots/sales/talent-scout/) | sourcing and outreach drafts | the shortlist has evidence, and nobody gets a message until you say so | [PROFILE.md](bots/sales/talent-scout/PROFILE.md) |
 
 ## Ops
 
@@ -60,6 +84,9 @@ Grok Bot is an always-on teammate bot in the Grok Bot / Cursor app. Get it at [x
 | [Support Replies](bots/ops/support-replies/) | draft support replies | first response in minutes, human still ships it | [PROFILE.md](bots/ops/support-replies/PROFILE.md) |
 | [Vendor Inbox](bots/ops/vendor-inbox/) | invoices, renewals, vendor follow-ups | renewals stop surprising you on the card statement | [PROFILE.md](bots/ops/vendor-inbox/PROFILE.md) |
 | [Security Questionnaire](bots/ops/security-questionnaire/) | draft security questionnaire answers | the 90-question form stops blocking the deal | [PROFILE.md](bots/ops/security-questionnaire/PROFILE.md) |
+| [Expense Manager](bots/ops/expense-manager/) | weekly expense reconciliation | the weekly pile is a summary and drafts, not a sent chase | [PROFILE.md](bots/ops/expense-manager/PROFILE.md) |
+| [Product Performance](bots/ops/product-performance/) | sourced performance investigations | the hotspot is a write-up with links, not a production toggle | [PROFILE.md](bots/ops/product-performance/PROFILE.md) |
+| [Account Health](bots/ops/account-health/) | ranked customer watch list | the watch list is ranked evidence, not a customer email | [PROFILE.md](bots/ops/account-health/PROFILE.md) |
 
 ## Personal
 
@@ -78,6 +105,7 @@ Grok Bot is an always-on teammate bot in the Grok Bot / Cursor app. Get it at [x
 | [Changelog Bot](bots/development/changelog-bot/) | release notes from merged PRs | ship notes without a Friday archaeology session | [PROFILE.md](bots/development/changelog-bot/PROFILE.md) |
 | [Issue Drafter](bots/development/issue-drafter/) | Slack/thread to GitHub issue | the bug is written down before it evaporates | [PROFILE.md](bots/development/issue-drafter/PROFILE.md) |
 | [Docs Writer](bots/development/docs-writer/) | README / API docs from the repo | docs catch up to the code in one pass | [PROFILE.md](bots/development/docs-writer/PROFILE.md) |
+| [Bug Reproduction](bots/development/bug-reproduction/) | staging repro packs | the ticket gets a repro pack, not a guess in the comments | [PROFILE.md](bots/development/bug-reproduction/PROFILE.md) |
 
 ## Submit your bot
 
@@ -85,6 +113,8 @@ Add `bots/[category]/[slug]/{PROFILE.md,README.md}`, add a `bots.json` entry, op
 
 ## Related
 
+- [Grok Bot](https://x.ai/bot)
+- [Use cases](https://docs.x.ai/grok-bot/use-cases)
 - [botdirectory.ai](https://botdirectory.ai/)
 - [awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents)
 
