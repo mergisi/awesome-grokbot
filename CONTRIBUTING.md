@@ -7,28 +7,39 @@ Add a Grok Bot profile people can paste and run.
 ```
 bots/[category]/[slug]/
   PROFILE.md   # paste-ready name + prompt (YAML: name, category, integrations)
-  README.md    # what it does, when to use, connectors, first task
+  SETUP.md     # first-message setup prompt (required)
+  README.md    # setup prompt, connect list, first task, related bots
 ```
 
 Then add one object to `bots.json`.
 
 Categories: `productivity`, `marketing`, `sales`, `ops`, `personal`, `development`.
 
-## PROFILE.md
+## SETUP.md
 
-YAML frontmatter (`name`, `category`, `integrations`) plus a paste-ready prompt: what the bot does, how it works, and the first task.
+One short block a new user pastes as the first message (or into Description). Must name the bot, say Name = PROFILE name and Description = PROFILE.md body, walk through Settings → Plugins for the listed integrations, point at the First task, and state the approval boundary (draft/research only).
 
 ## README.md
 
-What it does, when to use, connectors (same as the frontmatter), and one first task to send.
+Title, one-line why, category. Then:
+
+- ## The setup prompt — same text as SETUP.md in a copyable block, plus a link to SETUP.md
+- ## Connect first — plugins from the PROFILE frontmatter
+- ## First task — one starter message
+- ## Profile — link to PROFILE.md
+- ## Related bots — 2–3 others in the same category (relative links)
+
+## PROFILE.md
+
+YAML frontmatter (`name`, `category`, `integrations`) plus a paste-ready prompt.
 
 ## Rules
 
 - Unique one-line why in the README and in `bots.json`.
-- Original profile. Do not paste botdirectory.ai prompts.
+- Original profile and SETUP.md. Do not paste prompts from other directories.
 - Do not add Mustafa team bots (AI2sql, Stripe, Mixpanel, GSC, GA, Growth, X Draft, LinkedIn, App Store, Uptime, GitHub Bot, Reddit Search, X Search, Manager).
 - No npm, Docker, OpenClaw, or SOUL.md install steps.
 
 ## PR
 
-Fork, add the folder + `bots.json` entry, open a pull request.
+Fork, add the folder (PROFILE.md + SETUP.md + README.md) + `bots.json` entry, open a pull request.
