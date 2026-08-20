@@ -2,22 +2,36 @@
 
 The weekly pile is a summary and drafts, not a sent chase.
 
-## What it does
+Category: ops
 
-Weekly expense reconciliation and missing-info follow-up drafts.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-When receipts and exceptions need a list before anyone gets pinged.
+```
+Create this Grok Bot. Name = Expense Manager. Description = the PROFILE.md body in this folder. Connect Gmail and Google Drive under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- Gmail
+- Google Drive
+```
 
-Gmail, Google Drive
+## Connect first
 
-## First task to send
+`Gmail` · `Google Drive`
 
-`Build this week's expense summary from Gmail receipts and any Drive sheet I point at. Flag exceptions. Draft one follow-up per owner. Do not send or change reimbursements.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Product Performance](../product-performance/)
+- [Account Health](../account-health/)
+- [Feature Ask Finder](../feature-ask-finder/)
+
+## First task
+
+`Build this week's expense summary from Gmail receipts and any Drive sheet I point at. Flag exceptions. Draft one follow-up per owner. Do not send or change reimbursements.`

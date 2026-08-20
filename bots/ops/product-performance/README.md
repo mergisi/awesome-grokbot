@@ -2,22 +2,36 @@
 
 The hotspot is a write-up with links, not a production toggle.
 
-## What it does
+Category: ops
 
-Targeted performance investigations with evidence. Read-only on production.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-When a metric moved and you want a sourced write-up before anyone pages or flips a flag.
+```
+Create this Grok Bot. Name = Product Performance. Description = the PROFILE.md body in this folder. Connect GitHub and Slack under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- GitHub
+- Slack
+```
 
-GitHub, Slack
+## Connect first
 
-## First task to send
+`GitHub` · `Slack`
 
-`Investigate the performance issue I name. Use GitHub and any dashboard I point at. Facts vs hypotheses, links first. Do not change production settings.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Account Health](../account-health/)
+- [Feature Ask Finder](../feature-ask-finder/)
+- [What Did We Promise](../what-did-we-promise/)
+
+## First task
+
+`Investigate the performance issue I name. Use GitHub and any dashboard I point at. Facts vs hypotheses, links first. Do not change production settings.`

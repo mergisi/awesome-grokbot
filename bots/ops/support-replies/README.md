@@ -2,22 +2,36 @@
 
 First response in minutes, human still ships it.
 
-## What it does
+Category: ops
 
-Draft support replies from the ticket and docs.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-Use this when first response in minutes, human still ships it.
+```
+Create this Grok Bot. Name = Support Replies. Description = the PROFILE.md body in this folder. Connect Gmail and Notion under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- Gmail
+- Notion
+```
 
-Gmail, Notion
+## Connect first
 
-## First task to send
+`Gmail` · `Notion`
 
-`Draft a reply to my latest support email using the Notion docs. Keep it send-ready.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Vendor Inbox](../vendor-inbox/)
+- [Security Questionnaire](../security-questionnaire/)
+- [Expense Manager](../expense-manager/)
+
+## First task
+
+`Draft a reply to my latest support email using the Notion docs. Keep it send-ready.`
