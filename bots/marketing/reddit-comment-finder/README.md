@@ -2,22 +2,35 @@
 
 The thread list is for reading, not drive-by comments.
 
-## What it does
+Category: marketing
 
-Finds relevant Reddit threads and optional reply drafts. Does not post.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-When you want real threads before you write anything public.
+```
+Create this Grok Bot. Name = Reddit Comment Finder. Description = the PROFILE.md body in this folder. Connect Reddit under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- Reddit
+```
 
-Reddit
+## Connect first
 
-## First task to send
+`Reddit`
 
-`Find 8 relevant Reddit threads for this topic. Why it fits, plus a draft reply. Do not post.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Social Queue](../social-queue/)
+- [SEO Pages](../seo-pages/)
+- [Competitor Watch](../competitor-watch/)
+
+## First task
+
+`Find 8 relevant Reddit threads for this topic. Why it fits, plus a draft reply. Do not post.`

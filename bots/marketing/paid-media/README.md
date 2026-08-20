@@ -2,22 +2,36 @@
 
 The budget recommendation comes with numbers, not a live spend change.
 
-## What it does
+Category: marketing
 
-Campaign monitoring and budget recommendations. Stops before any bid or budget edit.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-When you want a spend read and a draft realloc, not an unsupervised change.
+```
+Create this Grok Bot. Name = Paid Media. Description = the PROFILE.md body in this folder. Connect Slack and Google Drive under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- Slack
+- Google Drive
+```
 
-Slack, Google Drive
+## Connect first
 
-## First task to send
+`Slack` · `Google Drive`
 
-`Pull current spend and performance vs this month's budget. Recommend reallocations with numbers. Draft a Slack update. Do not change budgets or send the message.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Viral Tweet Scout](../viral-tweet-scout/)
+- [Reddit Comment Finder](../reddit-comment-finder/)
+- [Social Queue](../social-queue/)
+
+## First task
+
+`Pull current spend and performance vs this month's budget. Recommend reallocations with numbers. Draft a Slack update. Do not change budgets or send the message.`
