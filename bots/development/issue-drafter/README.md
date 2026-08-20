@@ -2,22 +2,36 @@
 
 The bug is written down before it evaporates.
 
-## What it does
+Category: development
 
-Turn a bug report or Slack thread into a GitHub issue.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-Use this when the bug is written down before it evaporates.
+```
+Create this Grok Bot. Name = Issue Drafter. Description = the PROFILE.md body in this folder. Connect GitHub and Slack under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- GitHub
+- Slack
+```
 
-GitHub, Slack
+## Connect first
 
-## First task to send
+`GitHub` · `Slack`
 
-`Turn the latest bug thread in Slack into a GitHub issue draft I can file.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Docs Writer](../docs-writer/)
+- [Bug Reproduction](../bug-reproduction/)
+- [PR Reviewer](../pr-reviewer/)
+
+## First task
+
+`Turn the latest bug thread in Slack into a GitHub issue draft I can file.`

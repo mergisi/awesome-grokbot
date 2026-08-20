@@ -2,22 +2,35 @@
 
 Review starts with the scary diff, not the title.
 
-## What it does
+Category: development
 
-PR review for risk, tests, and missing context.
+## The setup prompt
 
-## When to use
+Copy [SETUP.md](SETUP.md) and paste it as the first message to a new Grok Bot (or into Description if the bot already exists).
 
-Use this when review starts with the scary diff, not the title.
+```
+Create this Grok Bot. Name = PR Reviewer. Description = the PROFILE.md body in this folder. Connect GitHub under Settings → Plugins. Then send the First task from the README. Draft and research only. Do not send, post, pay, or contact anyone unless I ask.
 
-## Connectors
+Connect first:
+- GitHub
+```
 
-GitHub
+## Connect first
 
-## First task to send
+`GitHub`
 
-`Review my latest open PR. Start with risk, tests, and missing context.`
+Open **Settings → Plugins** and add each one.
 
 ## Profile
 
 [PROFILE.md](PROFILE.md)
+
+## Related bots
+
+- [Changelog Bot](../changelog-bot/)
+- [Issue Drafter](../issue-drafter/)
+- [Docs Writer](../docs-writer/)
+
+## First task
+
+`Review my latest open PR. Start with risk, tests, and missing context.`
