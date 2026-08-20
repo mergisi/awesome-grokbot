@@ -9,12 +9,12 @@ Curated copy-paste profiles for Grok Bot.
 
 ## Quickstart
 
-1. Create a Grok Bot.
-2. Paste the bot's `PROFILE.md` into name + description.
-3. Connect the integrations listed in the profile.
-4. Send the first task.
+Grok Bot is an always-on teammate bot in the Grok Bot / Cursor app. Get it at [x.ai/bot](https://x.ai/bot), sign in, then:
 
-Two minutes. No install.
+1. Create a new bot.
+2. **Name** = the `name` / H1 in `PROFILE.md` (e.g. Daily Brief).
+3. **Description** = the rest of `PROFILE.md` (the prompt body). Two fields, not one paste.
+4. Connect the integrations listed in that profile, then send the First task from its README.
 
 ## Contents
 
